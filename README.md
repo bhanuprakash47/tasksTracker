@@ -4,7 +4,7 @@ This project is a full-stack task manager where users can register, log in, and 
 
 ## Live Demo
 
-[View Live Application](https://tasks-tracker-beta.vercel.app/)
+[View Live Application](https://tasks-tracker-ruby.vercel.app)
 
 
 ## Features
