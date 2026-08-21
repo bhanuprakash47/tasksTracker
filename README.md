@@ -2,6 +2,11 @@
 
 This project is a full-stack task manager where users can register, log in, and manage their own tasks.
 
+## Live Demo
+
+[View Live Application](https://tasks-tracker-smoky.vercel.app/)
+
+
 ## Features
 
 - User registration and login
