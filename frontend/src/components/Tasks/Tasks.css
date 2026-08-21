@@ -1,0 +1,169 @@
+.tasks-page {
+	margin: 0 auto;
+	max-width: 1200px;
+	padding: 28px 22px;
+}
+
+.topbar {
+	align-items: flex-start;
+	border-bottom: 1px solid #dce1e7;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 24px;
+	padding-bottom: 20px;
+}
+
+.page-heading {
+	font-size: 30px;
+	font-weight: 700;
+}
+
+.subtitle {
+	color: #687384;
+	font-size: 15px;
+	margin-bottom: 15px;
+}
+
+.workspace {
+	align-items: flex-start;
+	display: flex;
+	gap: 24px;
+}
+
+.task-form {
+	background: #fff;
+	border: 1px solid #dce1e7;
+	border-radius: 6px;
+	display: flex;
+	flex: 0 1 320px;
+	flex-direction: column;
+	gap: 9px;
+	padding: 20px;
+}
+
+.panel-heading {
+	font-size: 21px;
+	font-weight: 700;
+}
+
+.task-form .panel-heading {
+	margin-bottom: 6px;
+}
+
+.field-label {
+	color: #4b5563;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.task-list {
+	display: flex;
+	flex: 1 1 0;
+	flex-direction: column;
+	gap: 12px;
+	min-width: 0;
+}
+
+.list-heading {
+	align-items: flex-start;
+	display: flex;
+	gap: 14px;
+	justify-content: space-between;
+}
+
+.task-count {
+	color: #687384;
+	font-size: 14px;
+	margin-top: 4px;
+}
+
+.filters {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+	justify-content: flex-end;
+}
+
+.filters input,
+.filters select {
+	min-width: 125px;
+	width: auto;
+}
+
+.form-row,
+.button-row {
+	display: flex;
+	gap: 10px;
+}
+
+.form-row > div {
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	gap: 9px;
+}
+
+.button-row {
+	align-items: center;
+	flex-wrap: wrap;
+	margin-top: 7px;
+}
+
+.secondary-button {
+	background: #e8edf3;
+	color: #26364d;
+}
+
+.error {
+	background: #fff0f0;
+	border: 1px solid #e4aaaa;
+	color: #a12828;
+	font-size: 14px;
+	padding: 9px;
+}
+
+.empty-state {
+	background: #fff;
+	border: 1px dashed #c8d0da;
+	color: #687384;
+	padding: 30px;
+	text-align: center;
+}
+
+@media (max-width: 800px) {
+	.workspace {
+		flex-direction: column;
+	}
+
+	.task-form,
+	.task-list {
+		width: 100%;
+	}
+}
+
+@media (max-width: 560px) {
+	.tasks-page {
+		padding: 20px 14px;
+	}
+
+	.topbar,
+	.list-heading {
+		flex-direction: column;
+	}
+
+	.topbar {
+		gap: 15px;
+	}
+
+	.filters {
+		justify-content: flex-start;
+		width: 100%;
+	}
+
+	.filters input,
+	.filters select {
+		flex: 1 1 140px;
+		min-width: 0;
+		width: 100%;
+	}
+}

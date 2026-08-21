@@ -1,0 +1,57 @@
+:root {
+	color: #202938;
+	background: #f4f6f8;
+	font-family: Arial, sans-serif;
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	min-width: 320px;
+}
+
+button,
+input,
+textarea,
+select {
+	font: inherit;
+}
+
+button {
+	border: 0;
+	border-radius: 4px;
+	background: #2457a6;
+	color: #fff;
+	cursor: pointer;
+	padding: 10px 16px;
+}
+
+button:disabled {
+	cursor: wait;
+	opacity: 0.65;
+}
+
+input,
+textarea,
+select {
+	width: 100%;
+	border: 1px solid #c8d0da;
+	border-radius: 4px;
+	background: #fff;
+	color: #202938;
+	padding: 10px;
+}
+
+textarea {
+	min-height: 92px;
+	resize: vertical;
+}
+
+a {
+	color: #2457a6;
+}
